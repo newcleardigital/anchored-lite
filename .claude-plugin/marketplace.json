@@ -1,0 +1,21 @@
+{
+  "name": "anchored-lite",
+  "description": "Keeps AI-written code consistent across sessions.",
+  "owner": {
+    "name": "newcleardigital"
+  },
+  "plugins": [
+    {
+      "name": "anchor-core",
+      "source": "./plugins/anchor-core",
+      "description": "Session start from the project's own record, a check on every edit, hand-over notes, recorded decisions, and checks that prove they can fail.",
+      "category": "workflow",
+      "tags": [
+        "consistency",
+        "ai-coding",
+        "checks",
+        "handover"
+      ]
+    }
+  ]
+}

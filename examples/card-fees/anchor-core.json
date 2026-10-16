@@ -1,0 +1,9 @@
+{
+  "languages": ["python"],
+  "constants": "fees/limits.py",
+  "watch_numbers": [1.5, 0.25, 5000],
+  "banned_words": { "customer": "say cardholder, the team agreed on it" },
+  "generated": [{ "file": "docs/LIMITS.md", "command": "python3 tools/gen_limits.py" }],
+  "decisions": "docs/decisions",
+  "handover": "HANDOVER.md"
+}
