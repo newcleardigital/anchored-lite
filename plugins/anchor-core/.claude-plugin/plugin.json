@@ -1,8 +1,17 @@
 {
   "name": "anchor-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Keeps long AI-built projects consistent: every session starts from the project's own record, every edit is checked as it is written, and the checks prove they can fail.",
-  "author": { "name": "newcleardigital" },
+  "author": {
+    "name": "newcleardigital"
+  },
   "license": "MIT",
-  "keywords": ["consistency", "ai-coding", "handover", "decisions", "checks", "claude-code"]
+  "keywords": [
+    "consistency",
+    "ai-coding",
+    "handover",
+    "decisions",
+    "checks",
+    "claude-code"
+  ]
 }

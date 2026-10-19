@@ -29,7 +29,7 @@ printf '{"tool_input":{"file_path":"%s"}}' "$WORK/fees/charge.py" | python3 "$GA
 echo "(exit code $? = the edit is sent back to the agent to fix)"
 
 b "5. The same rules in your build:"
-bash "$GATES/run.sh" | grep -E "FAIL|✗|·|CHECKS" | head -8
+bash "$GATES/run.sh" | grep -E "FAIL|CHECKS|^  [^ ].*:[0-9]+ "
 
 b "6. The checks prove they can fail:"
 bash "$GATES/selftest.sh" | tail -1
