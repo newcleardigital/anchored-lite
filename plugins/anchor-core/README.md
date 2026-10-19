@@ -8,6 +8,23 @@ out coming back, a generated file edited by hand, or a decision from session 3
 quietly reversed in session 12. Anchored Lite gives the agent a written record to
 start from and checks every file it writes, the moment it writes it.
 
+## Install
+
+In Claude Code:
+
+```
+/plugin install anchor-core --marketplace newcleardigital/anchored-lite
+```
+
+or from your shell:
+
+```bash
+claude plugin marketplace add newcleardigital/anchored-lite
+claude plugin install anchor-core@anchored-lite
+```
+
+Then say **"start"** in your project.
+
 ## Skills
 
 | Skill | Say | What it does |

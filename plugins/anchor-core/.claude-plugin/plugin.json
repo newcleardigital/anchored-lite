@@ -1,7 +1,7 @@
 {
   "name": "anchor-core",
   "displayName": "Anchored Lite",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Keeps long AI-built projects consistent: every session starts from the project's own record, every edit is checked as it is written, and the checks prove they can fail.",
   "author": {
     "name": "newcleardigital",
@@ -10,6 +10,10 @@
   },
   "homepage": "https://github.com/newcleardigital/anchored-lite",
   "repository": "https://github.com/newcleardigital/anchored-lite",
+  "documentationUrl": "https://github.com/newcleardigital/anchored-lite#readme",
+  "supportUrl": "https://github.com/newcleardigital/anchored-lite/issues",
+  "privacyPolicyUrl": "https://github.com/newcleardigital/anchored-lite/blob/main/PRIVACY.md",
+  "termsOfServiceUrl": "https://github.com/newcleardigital/anchored-lite/blob/main/LICENSE",
   "license": "MIT",
   "keywords": [
     "consistency",
