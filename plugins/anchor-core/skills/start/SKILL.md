@@ -1,7 +1,7 @@
 ---
 name: start
 description: "Begin every working session here. Reads the project's own record (settings, latest handover, decisions, recent commits) so this session cannot contradict an earlier one, says where things stand, then gets on with the work. Use at the start of a session, when someone asks what's next, or to set anchor-core up in a project."
-allowed-tools: Bash(python3 ${CLAUDE_PLUGIN_ROOT}/gates/*), Bash(bash ${CLAUDE_PLUGIN_ROOT}/gates/*)
+allowed-tools: Bash(python3 ${CLAUDE_PLUGIN_ROOT}/gates/init.py), Bash(bash ${CLAUDE_PLUGIN_ROOT}/gates/run.sh)
 ---
 
 # Start a session

@@ -1,6 +1,7 @@
 ---
 name: decide
 description: "Record a decision that later work depends on (how money is stored, how users are identified, which library handles dates) as a file in docs/decisions, so no later session decides it again differently. Use when a choice comes up that other code will rely on, or when someone says 'let's go with…'."
+allowed-tools: Bash(python3 ${CLAUDE_PLUGIN_ROOT}/gates/check_decisions.py)
 ---
 
 # Record a decision

@@ -1,7 +1,7 @@
 ---
 name: checks
 description: "Run the anchor-core checks and explain any failure in plain words, or prove the checks can actually fail. Use when a check or CI goes red, before a commit, or when someone asks whether the checks are real."
-allowed-tools: Bash(bash ${CLAUDE_PLUGIN_ROOT}/gates/run.sh), Bash(bash ${CLAUDE_PLUGIN_ROOT}/gates/selftest.sh), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/gates/*)
+allowed-tools: Bash(bash ${CLAUDE_PLUGIN_ROOT}/gates/run.sh), Bash(bash ${CLAUDE_PLUGIN_ROOT}/gates/selftest.sh)
 ---
 
 # Run the checks
