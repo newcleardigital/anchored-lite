@@ -49,6 +49,14 @@ writes, the moment it writes it.
 
 ## Install in Claude Code
 
+In Claude Code:
+
+```
+/plugin install anchor-core --marketplace newcleardigital/anchored-lite
+```
+
+or from your shell:
+
 ```bash
 claude plugin marketplace add newcleardigital/anchored-lite
 claude plugin install anchor-core@anchored-lite
@@ -58,14 +66,21 @@ Open Claude in your project and say **"start"**. The first time, it sets itself 
 asks three questions: which numbers your product fixes on purpose, which words to
 avoid, and which files are generated. At the end of a session, say **"hand over"**.
 
+| Skill | Say | What it does |
+|---|---|---|
+| `start` | "start" | Reads the project's record (settings, latest handover, decisions, recent commits), says where things stand, sets the plugin up the first time |
+| `checks` | "run the checks" | Runs the checks and explains any failure |
+| `decide` | "record a decision" | Writes a decision file: what was chosen and why |
+| `handover` | "hand over" | Writes the note the next session starts from |
+
 ## Use the checks without Claude
 
 Plain Python 3, no packages:
 
 ```bash
-python3 anchored-lite/plugins/anchor-core/gates/init.py      # in your project
-bash anchored-lite/plugins/anchor-core/gates/run.sh          # run the checks
-bash anchored-lite/plugins/anchor-core/gates/selftest.sh     # prove they can fail
+python3 anchored-lite/gates/init.py      # in your project
+bash anchored-lite/gates/run.sh          # run the checks
+bash anchored-lite/gates/selftest.sh     # prove they can fail
 ```
 
 Add `run.sh` and `selftest.sh` to CI. A check that silently stops working looks exactly
@@ -85,6 +100,13 @@ like a clean build.
 ```
 
 Works with TypeScript, JavaScript, Python, Java, Kotlin, C#, Go, Rust, Ruby and PHP.
+
+## Requirements and privacy
+
+Python 3, standard library only. Everything runs on your machine. The plugin makes no
+network calls and sends no telemetry; the only commands it runs are the generator
+commands you list under `generated`. The hook and checks are Claude Code
+features; on claude.ai and in Cowork only the skills apply.
 
 ## When your code has to follow a rulebook
 

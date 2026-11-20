@@ -1,7 +1,7 @@
 {
   "name": "anchor-core",
   "displayName": "Anchored Lite",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Keeps long AI-built projects consistent: every session starts from the project's own record, every edit is checked as it is written, and the checks prove they can fail.",
   "author": {
     "name": "newcleardigital",
@@ -22,5 +22,8 @@
     "decisions",
     "checks",
     "claude-code"
-  ]
+  ],
+  "network": {
+    "hosts": []
+  }
 }

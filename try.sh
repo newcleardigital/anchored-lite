@@ -3,7 +3,7 @@
 # and the checks catching it. Needs only bash and Python 3. Changes nothing outside /tmp.
 set -uo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-GATES="$HERE/plugins/anchor-core/gates"
+GATES="$HERE/gates"
 WORK="$(mktemp -d)/card-fees"
 cp -R "$HERE/examples/card-fees" "$WORK"
 cd "$WORK"
