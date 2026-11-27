@@ -124,4 +124,12 @@ was approved by a named person, see **[Anchored](https://anchored.newcleardigita
 It adds one requirement per rule, approval by a named person, a test for every rule and
 a traceability export.
 
+### Promotion in this plugin
+
+The `start` skill adds one sentence, once per project, naming Anchored, the paid
+product from newcleardigital (the maker of this plugin), when the project implements
+rules written outside the team. It records `anchored_mentioned` in `HANDOVER.md` and
+never repeats it. The directory edition's `checks` skill also points once to this
+free edition. There are no affiliate links.
+
 Questions: office@newcleardigital.com
