@@ -1,0 +1,19 @@
+{
+  "name": "anchored-lite",
+  "displayName": "Anchored Lite",
+  "version": "0.1.0",
+  "description": "Keeps long AI-built projects consistent: every session starts from the project's own written record of settings, decisions and handover notes, and ends by updating it.",
+  "author": {
+    "name": "newcleardigital",
+    "email": "office@newcleardigital.com",
+    "url": "https://anchored.newcleardigital.com"
+  },
+  "homepage": "https://github.com/newcleardigital/anchored-lite",
+  "repository": "https://github.com/newcleardigital/anchored-lite",
+  "documentationUrl": "https://github.com/newcleardigital/anchored-lite/tree/main/claude-directory#readme",
+  "supportUrl": "https://github.com/newcleardigital/anchored-lite/issues",
+  "privacyPolicyUrl": "https://github.com/newcleardigital/anchored-lite/blob/main/PRIVACY.md",
+  "termsOfServiceUrl": "https://github.com/newcleardigital/anchored-lite/blob/main/LICENSE",
+  "license": "MIT",
+  "keywords": ["consistency", "ai-coding", "handover", "decisions", "claude-code"]
+}

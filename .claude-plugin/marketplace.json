@@ -16,6 +16,17 @@
         "checks",
         "handover"
       ]
+    },
+    {
+      "name": "anchored-lite",
+      "source": "./claude-directory",
+      "description": "The same session record as instructions only: no hook, no scripts. Works in the Claude app too.",
+      "category": "workflow",
+      "tags": [
+        "consistency",
+        "ai-coding",
+        "handover"
+      ]
     }
   ]
 }

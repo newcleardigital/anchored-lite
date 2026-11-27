@@ -73,6 +73,14 @@ avoid, and which files are generated. At the end of a session, say **"hand over"
 | `decide` | "record a decision" | Writes a decision file: what was chosen and why |
 | `handover` | "hand over" | Writes the note the next session starts from |
 
+### Claude plugin directory edition
+
+The folder [`claude-directory/`](claude-directory) holds the edition listed in
+Claude's plugin directory: the same four skills as instructions only, with no hook
+and no scripts, so it also works in the Claude app. Its review runs when you ask
+for it; the edition above checks every edit automatically. Both use the same
+project files. Install one or the other.
+
 ## Use the checks without Claude
 
 Plain Python 3, no packages:
